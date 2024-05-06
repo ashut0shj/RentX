@@ -50,7 +50,6 @@ const rentalsData = [
     }   
 ];
 
-// Function to generate rental listings
 function generateRentals() {
     const rentalsSection = document.getElementById('rentals');
 
@@ -73,5 +72,4 @@ function generateRentals() {
     });
 }
 
-// Call the function to generate rentals when the page loads
 window.onload = generateRentals;
