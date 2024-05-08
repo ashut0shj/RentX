@@ -47,7 +47,15 @@ const rentalsData = [
         location: 'Hyderabad',
         description: 'High-definition LED TV available for rent. Perfect for movie nights and gaming sessions.',
         image: 'tv_hyderabad.jpg'
-    }   
+    }   ,
+    {
+        type: 'Babygirl',
+        title: 'My love Kanika',
+        price: '∞',
+        location: 'Ashutosh',
+        description: 'Shes a fun loving, sweet, kind caring selfless girl, i love her.',
+        image: 'image.jpg'
+    } 
 ];
 
 function generateRentals() {

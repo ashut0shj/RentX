@@ -3,34 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beautiful Image Display</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f3f3f3;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 600px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>RentX - Your Rental Platform</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="image.jpg" alt="Image Description">
-    </div>
+    <header>
+        <h1>RentX</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rentals</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <input type="text" id="searchInput" placeholder="Search rentals...">
+        <button id="searchButton">Search</button>
+    </section>
+
+    <section id="rentals">
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
