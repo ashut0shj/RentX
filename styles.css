@@ -1,20 +1,32 @@
+/* Add your CSS styles here */
+/* Example: */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f5f9;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
 }
 
 header {
-    background-color: #333;
+    background-color: #1e6091;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header h1 {
-    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -31,46 +43,83 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
 }
 
 section#search {
-    background-color: #f4f4f4;
+    background-color: #fff;
     padding: 20px;
     text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
 }
 
 section#search input[type="text"] {
     padding: 10px;
     width: 60%;
     margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+section#search input[type="text"]:focus {
+    border-color: #1e6091; /* Change border color on focus */
 }
 
 section#search button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #1e6091;
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+section#search button:hover {
+    background-color: #144468; /* Darker color on hover */
 }
 
 section#rentals {
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .rental {
     display: flex;
+    flex-direction: column;
+    background-color: #fff;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .rental img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .rental-details {
     flex-grow: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rental-details h3 {
@@ -90,17 +139,26 @@ section#rentals {
 }
 
 .rentButton {
-    background-color: #4CAF50;
+    background-color: #1e6091;
     border: none;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin-top: auto;
-    margin-bottom: auto;
     cursor: pointer;
     border-radius: 8px;
-    margin-right:5%;
+    align-self: center; /* Center horizontally */
+    margin-top: auto; /* Push to the bottom */
+    margin-bottom: 7%;
+    transition: background-color 0.3s ease; /* Add transition */
+    display: block; /* Make button a block element */
+    width: 50%; /* Set width to 50% of its container */
+    max-width: 200px; /* Limit maximum width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+.rentButton:hover {
+    background-color: #144468; /* Darker color on hover */
 }
