@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="stylesp.css">
+</head>
+<body>
+    <header>
+        <h1>Payment</h1>
+    </header>
+
+    <main>
+        <section id="finalPrice" class="product-details">
+            <h2>Final Price</h2>
+            <p id="calculatedPrice"></p>
+        </section>
+
+        <section id="billDetails" class="product-details">
+            <h2>Bill Details</h2>
+            <p><strong>Product Price:</strong> <span id="productPrice"></span></p>
+            <p><strong>Insurance (10%):</strong> <span id="insuranceCost"></span></p>
+            <p><strong>Total Amount:</strong> <span id="totalAmount"></span></p>
+        </section>
+
+        <section id="termsAndConditions" class="product-details">
+            <h2>Terms and Conditions</h2>
+            <p>1. Payment must be made in full before delivery.</p>
+            <p>2. No refunds or cancellations after payment.</p>
+            <!-- Add more terms and conditions as needed -->
+        </section>
+
+        <section id="paymentMethod" class="product-details">
+            <h2>Select Payment Method</h2>
+            <select id="paymentOptions">
+                <option value="creditCard">Credit Card</option>
+                <option value="debitCard">Debit Card</option>
+                <option value="netBanking">Net Banking</option>
+                <!-- Add more payment options as needed -->
+            </select>
+            <button id="payButton">Pay Now</button>
+        </section>
+    </main>
+
+    <script src="scriptf.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="stylesp.css">
+</head>
+<body>
+    <header>
+        <h1>Product Details</h1>
+    </header>
+
+    <main>
+        <div class="product-details">
+            <h2 id="productName"></h2>
+            <div id="productImages" class="product-images"></div>
+<p id="productDescription" class="product-description"></p>
+<p id="productLocation" class="product-location"></p>
+<p id="productPrice" class="product-price" data-price=""></p> <!-- Add data-price attribute -->
+<div class="quantity">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" value="1" min="1">
+</div>
+<div class="duration">
+    <label for="duration">Duration:</label>
+    <select id="duration" name="duration">
+        <option value="days">Days</option>
+        <option value="weeks">Weeks</option>
+        <option value="months">Months</option>
+    </select>
+</div>
+<div class="final-price">
+    <p>Final Price: <span id="finalPrice"></span></p>
+</div>
+<button id="rentButton">Rent Now</button>
+    </main>
+
+    <script src="scriptp.js"></script>
+</body>
+</html>
