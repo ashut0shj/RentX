@@ -26,11 +26,11 @@ const rentalsData = [
     },
     {
         type: 'Dress',
-        title: 'Traditional Saree for Rent',
+        title: 'Books',
         price: 500,
         location: 'Jaipur',
-        description: 'Beautiful traditional saree available for rent. Perfect for weddings and special occasions.',
-        image: 'https://img.buzzfeed.com/buzzfeed-static/static/2019-10/31/18/enhanced/13618ea84f0f/enhanced-3200-1572546694-1.jpg?output-format=auto&output-quality=auto'
+        description: 'This collectible Dr. Seuss boxed set is perfect for inspiring a love of reading, and with five books in one super giftable set, it will complete any beginning readers shelf!   An ideal gift for new parents, birthday celebrations, and happy occasions of all kinds, this collection of five beloved Beginner Books by Dr. Seuss will be cherished by young and old alike.',
+        image: 'https://m.media-amazon.com/images/I/7173a8decnL._AC_UF1000,1000_QL80_.jpg'
     },
     {
         type: 'Furniture',
