@@ -38,7 +38,7 @@ const rentalsData = [
         price: 1500,
         location: 'Chennai',
         description: 'Comfortable sofa set available for rent. Adds elegance to your living room.',
-        image: ''},
+        image: 'https://www.jiomart.com/images/product/original/rvrkkvmj0t/lanstick-vinyl-black-mr-bean-image-with-motivational-quotes-self-adhesive-wall-sticker-24-inch-product-images-orvrkkvmj0t-p601804543-0-202305260357.jpg?im=Resize=(1000,1000)'},
     {
         type: 'Electronics',
         title: 'LED TV for Rent',
@@ -46,6 +46,22 @@ const rentalsData = [
         location: 'Hyderabad',
         description: 'High-definition LED TV available for rent. Perfect for movie nights and gaming sessions.',
         image: 'https://5.imimg.com/data5/ANDROID/Default/2022/3/OP/JW/TK/100333456/product-jpeg.jpg'
+    }   ,
+    {
+        type: 'Saree',
+        title: 'Bridal Lehangafor Rent',
+        price: 1500,
+        location: 'raipur',
+        description: 'SILVER EMBELLISHED LEHENGA',
+        image: 'https://kuroindia.in/cdn/shop/products/25_6c9ae608-fe4f-4020-a2bf-7ded5ea27f19_1800x1800.png?v=1652874060'
+    }   ,
+    {
+        type: 'Trampoline',
+        title: 'Trampoline for Rent',
+        price: 7000,
+        location: 'Mumbai',
+        description: 'Solid steel structure : Fully galvanized steel frame for better resistance to rust and corrosion; 4 U-shaped big legs with 8 balanced contact points for better stability and safety',
+        image: 'https://5.imimg.com/data5/SELLER/Default/2023/4/304138402/CE/FD/MF/46380693/dolphy-mild-steel-12-feet-jumping-trampoline-1000x1000.jpg'
     }   ,
 
 ];
