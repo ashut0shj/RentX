@@ -13,7 +13,8 @@ body {
 header {
     background: linear-gradient(to right, #1e6091, #3b8bc4); /* Gradient background */
     color: #fff;
-    padding: 20px;
+    padding: 5px; /* Reduce padding */
+    height: 60px; /* Reduce height */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +225,7 @@ h1 {
 }
 
 img {
-    width: 100px; /* Adjust the width of the logo */
+    width: 150px; /* Adjust the width of the logo */
     height: auto; /* Maintains aspect ratio */
     margin-left: 20px; /* Adjust the margin between the logo and title */
 }

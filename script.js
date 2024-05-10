@@ -25,21 +25,6 @@ const rentalsData = [
         image: 'https://img.buzzfeed.com/buzzfeed-static/static/2019-10/31/18/enhanced/13618ea84f0f/enhanced-3200-1572546694-1.jpg?output-format=auto&output-quality=auto'
     },
     {
-        type: 'Dress',
-        title: 'Books',
-        price: 500,
-        location: 'Jaipur',
-        description: 'This collectible Dr. Seuss boxed set is perfect for inspiring a love of reading, and with five books in one super giftable set, it will complete any beginning readers shelf!   An ideal gift for new parents, birthday celebrations, and happy occasions of all kinds, this collection of five beloved Beginner Books by Dr. Seuss will be cherished by young and old alike.',
-        image: 'https://m.media-amazon.com/images/I/7173a8decnL._AC_UF1000,1000_QL80_.jpg'
-    },
-    {
-        type: 'Furniture',
-        title: 'Sofa Set for Rent',
-        price: 1500,
-        location: 'Chennai',
-        description: 'Comfortable sofa set available for rent. Adds elegance to your living room.',
-        image: 'https://www.jiomart.com/images/product/original/rvrkkvmj0t/lanstick-vinyl-black-mr-bean-image-with-motivational-quotes-self-adhesive-wall-sticker-24-inch-product-images-orvrkkvmj0t-p601804543-0-202305260357.jpg?im=Resize=(1000,1000)'},
-    {
         type: 'Electronics',
         title: 'LED TV for Rent',
         price: 2000,
@@ -47,6 +32,15 @@ const rentalsData = [
         description: 'High-definition LED TV available for rent. Perfect for movie nights and gaming sessions.',
         image: 'https://5.imimg.com/data5/ANDROID/Default/2022/3/OP/JW/TK/100333456/product-jpeg.jpg'
     }   ,
+    
+    {
+        type: 'Furniture',
+        title: 'Sofa Set for Rent',
+        price: 1500,
+        location: 'Chennai',
+        description: 'Comfortable sofa set available for rent. Adds elegance to your living room.',
+        image: 'https://www.jiomart.com/images/product/original/rvrkkvmj0t/lanstick-vinyl-black-mr-bean-image-with-motivational-quotes-self-adhesive-wall-sticker-24-inch-product-images-orvrkkvmj0t-p601804543-0-202305260357.jpg?im=Resize=(1000,1000)'},
+    
     {
         type: 'Saree',
         title: 'Bridal Lehangafor Rent',
@@ -63,6 +57,14 @@ const rentalsData = [
         description: 'Solid steel structure : Fully galvanized steel frame for better resistance to rust and corrosion; 4 U-shaped big legs with 8 balanced contact points for better stability and safety',
         image: 'https://5.imimg.com/data5/SELLER/Default/2023/4/304138402/CE/FD/MF/46380693/dolphy-mild-steel-12-feet-jumping-trampoline-1000x1000.jpg'
     }   ,
+    {
+        type: 'Dress',
+        title: 'Books',
+        price: 500,
+        location: 'Jaipur',
+        description: 'This collectible Dr. Seuss boxed set is perfect for inspiring a love of reading, and with five books in one super giftable set, it will complete any beginning readers shelf!   An ideal gift for new parents, birthday celebrations, and happy occasions of all kinds, this collection of five beloved Beginner Books by Dr. Seuss will be cherished by young and old alike.',
+        image: 'https://m.media-amazon.com/images/I/7173a8decnL._AC_UF1000,1000_QL80_.jpg'
+    },
 
 ];
 
