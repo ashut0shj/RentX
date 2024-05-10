@@ -213,3 +213,18 @@ section#rentals {
 .rentButton:hover {
     background-color: #144468; /* Darker color on hover */
 }
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-right: auto; /* Pushes the logo to the right */
+}
+
+img {
+    width: 100px; /* Adjust the width of the logo */
+    height: auto; /* Maintains aspect ratio */
+    margin-left: 20px; /* Adjust the margin between the logo and title */
+}
