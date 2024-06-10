@@ -22,8 +22,8 @@ RentX offers a centralized platform where users can easily browse and compare va
 
 ![Screenshot 2024-06-11 002911](https://github.com/ashut0shj/RentX/assets/137218848/4814257d-b445-44c8-ac1e-c53bd5f7707b)
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/ashut0shj/RentX/assets/137218848/0f194113-7f67-4adf-b1dd-4a27737d318a" alt="Screenshot 1" style="width: 250px; height:400px; margin-right: 10px;">
-  <img src="https://github.com/ashut0shj/RentX/assets/137218848/1283b56e-6eb4-4bd9-9fc3-a2c25ca3464b" alt="Screenshot 2" style="width: 250px; height: 400px;">
+  <img src="https://github.com/ashut0shj/RentX/assets/137218848/0f194113-7f67-4adf-b1dd-4a27737d318a" alt="Screenshot 1" style="width: 320px; height:550px; margin-right: 10px;">
+  <img src="https://github.com/ashut0shj/RentX/assets/137218848/1283b56e-6eb4-4bd9-9fc3-a2c25ca3464b" alt="Screenshot 2" style="width: 320px; height: 550px;">
 </div>
 
 ## Technologies Used
