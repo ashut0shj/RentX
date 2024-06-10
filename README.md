@@ -12,21 +12,6 @@ Finding reliable rentals for homes, furniture, electronics, and traditional atti
 
 RentX offers a centralized platform where users can easily browse and compare various rental options from the comfort of their own homes. By ensuring clear pricing, rental terms, and high-quality listings, RentX eliminates uncertainties and potential disputes, saving users time and effort.
 
-## Features
-
-1. **Browse a Wide Range of Items:** Access a diverse selection of accommodations, furniture, electronics, and traditional attire.
-2. **User-Friendly Interface:** Intuitive design for easy navigation.
-3. **Responsive Design:** Seamless browsing on different devices, including desktops, tablets, and mobile phones.
-4. **Transparent Listings:** Clear information on pricing, rental terms, and product details with high-quality images.
-5. **Easy Checkout Process:** Secure and straightforward booking and payment system.
-6. **Customer Support Integration:** Features for prompt assistance and inquiry resolution.
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
 ## Product Demo
 
 1. **User Registration:** Users can sign up using their email or social media accounts.
@@ -36,9 +21,26 @@ RentX offers a centralized platform where users can easily browse and compare va
 5. **Customer Support Integration:** Easy access to customer support for assistance and inquiries.
 
 ![Screenshot 2024-06-11 002911](https://github.com/ashut0shj/RentX/assets/137218848/4814257d-b445-44c8-ac1e-c53bd5f7707b)
-![Screenshot 2024-06-11 003012](https://github.com/ashut0shj/RentX/assets/137218848/0f194113-7f67-4adf-b1dd-4a27737d318a)
-![Screenshot 2024-06-11 003039](https://github.com/ashut0shj/RentX/assets/137218848/1283b56e-6eb4-4bd9-9fc3-a2c25ca3464b)
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/ashut0shj/RentX/assets/137218848/0f194113-7f67-4adf-b1dd-4a27737d318a" alt="Screenshot 1" style="width: 500px; height: 700px; margin-right: 10px;">
+  <img src="https://github.com/ashut0shj/RentX/assets/137218848/1283b56e-6eb4-4bd9-9fc3-a2c25ca3464b" alt="Screenshot 2" style="width: 507px; height: 700px;">
+</div>
 
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Features
+
+1. **Browse a Wide Range of Items:** Access a diverse selection of accommodations, furniture, electronics, and traditional attire.
+2. **User-Friendly Interface:** Intuitive design for easy navigation.
+3. **Responsive Design:** Seamless browsing on different devices, including desktops, tablets, and mobile phones.
+4. **Transparent Listings:** Clear information on pricing, rental terms, and product details with high-quality images.
+5. **Easy Checkout Process:** Secure and straightforward booking and payment system.
+6. **Customer Support Integration:** Features for prompt assistance and inquiry resolution.
+   
 ## Blue Ocean Strategy
 
 RentX differentiates itself in the rental industry by focusing on affordability, convenience, and sustainability. By creating a new market space and attracting customers seeking alternatives to traditional ownership models, RentX positions itself as a market leader with sustainable growth.
