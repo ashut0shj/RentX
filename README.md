@@ -35,6 +35,10 @@ RentX offers a centralized platform where users can easily browse and compare va
 4. **Booking Process:** Seamless booking with secure payment options.
 5. **Customer Support Integration:** Easy access to customer support for assistance and inquiries.
 
+![Screenshot 2024-06-11 002911](https://github.com/ashut0shj/RentX/assets/137218848/4814257d-b445-44c8-ac1e-c53bd5f7707b)
+![Screenshot 2024-06-11 003012](https://github.com/ashut0shj/RentX/assets/137218848/0f194113-7f67-4adf-b1dd-4a27737d318a)
+![Screenshot 2024-06-11 003039](https://github.com/ashut0shj/RentX/assets/137218848/1283b56e-6eb4-4bd9-9fc3-a2c25ca3464b)
+
 ## Blue Ocean Strategy
 
 RentX differentiates itself in the rental industry by focusing on affordability, convenience, and sustainability. By creating a new market space and attracting customers seeking alternatives to traditional ownership models, RentX positions itself as a market leader with sustainable growth.
